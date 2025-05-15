@@ -3,27 +3,27 @@
 
     /* ----------------------------Colors ------------------------Variantes  */
     
-      --primary:#006FB9;
-      --complementary:#FFDD35;
-      --black:#1B1A16;
+      --primary:#3045FF;
+      --complementary:#5287fb;
+      --black:#2E2E2E;
       --neutral:#BDBDBD;
       --white:#FFF;
-      --background:#FAFBFC;
-      --text: #1B1A16;
+      --background:#EFEFEF;
+      --text: #2E2E2E;
     
       /* Semantic colors */
-      --error:#BA4B44;
-      --success:#2E8241;                                          
-      --success-soft:#E5FFEB; 
-      --success-background:#E5FFEB;
-      --warning:#AB5C00;
-      --info:#0076A9;
+      --error:#E43B3B;
+      --success:#46BA36;                                          
+      --success-soft:#b6d7a8; 
+      --success-background:#EFEFEF;
+      --warning:#FBE57A;
+      --info:#3267f2;
       --sales:#F44336;
     
     /* Behavior colors */
-      --primary-hover:#145B97;
-      --primary-press:#194B7B;
-      --primary-disabled:#A1B8DE;
+      --primary-hover:#5287fb;
+      --primary-press:#3267f2;
+      --primary-disabled:#c5d6fcff;
     
     /* ----------------------------Fonts */
     

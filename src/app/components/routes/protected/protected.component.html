@@ -1,20 +1,38 @@
-<div>
+<section>
+    <span class="icon--header"></span>
+    <div class="section--title">
     <h1>Bienvenido</h1>
     <p>Responde lo siguiente:</p>
 </div>
-<div>
-    <p>¿Asistes a la Convención Nacional 2026?</p>
-    <select name="Repoonder">
-        <option value="Si">Si</option>
-        <option value="No">No</option>
-    </select>
-    <p>¿Asiste tú pareja a la Convención Nacional 2026?</p>
-    <select name="Repoonder">
-        <option value="Si">Si</option>
-        <option value="No">No</option>
-    </select>
-    <label for="comentarios">Deja tus comentarios:</label>
-    <input type="text" name="comentarios">
-    
-    <input type="submit" value="Enviar">
+<div class="section--questions">
+    <ol>
+        <li>¿Asistirá a la Convención Nacional 2026?<br>
+            <select name="Reponder" class="select--input">
+                <option value="Seleccionar">Seleccionar...</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>
+        </li>
+        <li>¿Su pareja asistirá a la Convención Nacional 2026?<br>
+            <select name="Reponder" class="select--input">
+            <option value="Seleccionar">Seleccionar...</option>
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select>   
+        </li>
+        <li>¿Tiene alguna alergia alimentaria que debamos considerar? Si es así, por favor especifíquela:<br>
+            <input  type="text" class="txtBox--input" name="alergias">
+        </li>
+        <li>¿Tiene alguna necesidad especial relacionada con accesibilidad o alguna discapacidad que debamos tener en cuenta? Si es así, por favor descríbala:<br>
+            <input type="text" class="txtBox--input" name="necesidadesEspeciales">
+        </li>
+        <li>Comentarios adicionales importantes:<br>
+            <input type="text" class="txtBox--input" name="comentarios">
+        </li>
+    </ol>
+     
 </div>
+<span class="icon--footer"></span>
+<button class="btn-enviar">Enviar</button>
+</section>
+

@@ -1,27 +1,27 @@
 :root{
   /* Colors */
-  --primary:#006FB9;
-  --complementary:#FFDD35;
-  --black:#1B1A16;
+  --primary:#5287FB;
+  --complementary:#FDDA25;
+  --black:#2E2E2E;
   --neutral:#BDBDBD;
   --white:#FFF;
-  --background:#514F54;
+  --background:#2E2E2E;
   --text: #FFF;
 
   /* Semantic colors */
-  --error:#BA4B44;
-  --success:#2E8241;                                          
-  --success-soft:#E5FFEB; 
-  --success-background:#E5FFEB;
-  --warning:#AB5C00;
-  --info:#0076A9;
+  --error:#E43B3B;
+  --success:#46BA36;                                          
+  --success-soft:#b6d7a8; 
+  --success-background:#EFEFEF;
+  --warning:#FBE57A;
+  --info:#2E2E2E;
   --sales:#F44336;
 
   /* Behavior colors */
-  --primary-hover:#A1B8DE;
-  --primary-press:#194B7B;
-  --primary-disabled:#A1B8DE;
+  --primary-hover:#5287FB;
+  --primary-press:#3267f2;
+  --primary-disabled:#B2B2B2;
   /* PrimeNg colors*/
-  --background-soft: #514F54;
+  --background-soft: #2E2E2E;
    
 }
