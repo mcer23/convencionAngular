@@ -42,6 +42,22 @@
 </section>
 <section id="banner-content">
   <img [src]="bannerSrc()" alt="CoppelframeworkWebclientAngularspa18">
+</section>
+<section class="main--signin">
+  <div class="signin--styles">
+    <h1>Convención Grupo </h1>
+    <img src="../../../../assets/logo/logo-coppel.svg" alt="img_logo">
+      <p>Inicia sesión con Active Directory.</p>
+      <div class="signin--btn">
+        <p-button
+         label="Iniciar sesión"
+          (onClick)="appService.loginRedirect()"
+          styleClass="p-button-primary-convencion"  Estilos asignados
+          [disabled]="appService.isLoadingAD()"
+          ></p-button>
+                     
+      </div>
+  </div>     
 </section> -->
 <section class="main--signin">
   <div class="signin--styles">
@@ -52,7 +68,6 @@
         <p-button
          label="Iniciar sesión"
           (onClick)="appService.loginRedirect()"
-          styleClass="p-button-primary-convencion"
           [disabled]="appService.isLoadingAD()"
           ></p-button>
                      

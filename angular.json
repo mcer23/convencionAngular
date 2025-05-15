@@ -34,7 +34,8 @@
               "node_modules/primeicons/primeicons.css",
               "src/styles.scss",
               "src/app/scss/themes/coltrane-prime/coltrane-styles.scss",
-              "src/app/components/primeng/sidebar/sidebar.component.scss"
+              "src/app/components/primeng/sidebar/sidebar.component.scss",
+              "src/styles/convenciones2025.scss"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
