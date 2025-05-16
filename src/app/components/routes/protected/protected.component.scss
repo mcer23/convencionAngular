@@ -26,8 +26,8 @@ section{
 .icon--header{
     content: url(assetsConvencion/ico/Eclipse.png);
     position: absolute;
-    width:140px;
-    left:-80px;
+    width:82px;
+    left:-40px;
     z-index: 1;
     overflow: hidden;
 
@@ -36,8 +36,8 @@ section{
     content: url(assetsConvencion/ico/asset_footer.png);
     position: absolute;
     overscroll-behavior-x: hidden;
-    width:240px;
-    right:-80px;
+    width:140px;
+    right:-60px;
     bottom:1px;
     z-index: 1;
     overflow: hidden;
@@ -62,7 +62,7 @@ section{
 .txtBox--input{
     margin-top: 8px;
     width:90%;
-    height: 96px;
+    height: 50px;
     border: 1px solid #B2B2B2;
 }
 
@@ -70,13 +70,29 @@ section{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width:254px;
+    width:163px;
     height: 33px;
     border-radius: 23px;
     border: none;
     background-color: $lightSubtitle;
     color: $darkText;
+    padding-top: 10px;
+}
+@media (min-width:1000px){
+    .icon--header{
+    width:140px;
+    left:-80px;
+}
+.icon--footer{
+    width:240px;
+    right:-80px;
+}
+.btn-enviar{
+    width:254px;
     padding-top: 7px;
+}
+
+
 }
 
 
