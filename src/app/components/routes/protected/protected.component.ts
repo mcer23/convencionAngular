@@ -10,9 +10,9 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './protected.component.scss'
 })
 export class ProtectedComponent {
-  parejaOpcion: string='';
-  alergiaOpcion:string='';
-  necesidadOpcion:string='';
+  parejaOpcion: string='Seleccionar...';
+  alergiaOpcion:string='Seleccionar...';
+  necesidadOpcion:string='Seleccionar...';
 
  
  
